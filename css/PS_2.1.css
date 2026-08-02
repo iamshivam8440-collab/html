@@ -1,0 +1,12 @@
+#img {
+		/* background image */
+	background-image:url("../img/nature.jpg");
+	background-size:cover;
+}
+#box1 {
+	text-align:center;
+	text-transform:capitalize;
+}
+#box2 {
+	text-align:justify;
+}

@@ -1,0 +1,65 @@
+<!doctype>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<form action="/action.php">
+			<h3>STUDENT INFO</h3>
+			<input type="text"placeholder="Name">
+			<br>
+			<br>
+			<input type="digits"placeholder="Student Id">
+			<br>
+			<br>
+			<input type="Password"placeholder="Password">
+			<p><b>Select your course</b></p>
+			<label for="1010">
+				<input type="radio"value="BCA"name="class"id="1010">BCA
+			</label>
+			<br>
+			<label for="1011">
+				<input type="radio"value="BBA"name="class"id="1011">BBA
+			</label>
+			<br>
+			<label for="1012">
+				<input type="radio"value="MCA"name="class"id="1012">Other
+			</label>
+			<p><b>Select fav language</b></p>
+			<label for="1">
+				<input type="checkbox"value="C-language" name="subject"id="1">C
+			</label>
+			<br>
+			<label for="2">
+				<input type="checkbox"value="C-language" name="subject"id="2">C++
+			</label>
+			<br>
+			<label for="3">
+				<input type="checkbox"value="python" name="subject"id="3">python
+			</label>
+			<br>
+			<label for="4">
+				<input type="checkbox"value="java" name="subject"id="4">java
+			</label>
+			<br>
+			<label for="5">
+				<input type="checkbox"value="HTML" name="subject"id="5">html
+			</label>
+			<br><br>
+			<b>Select your city</b>
+			
+			<Select name="city">
+				<option value="Agra">Agra</option>
+				<option value="Kanpur">Kanpur</option>
+				<option value="Lucknow">Lucknow</option>
+				<option value="Noida">Noida</option>
+				<option value="Prayagraj">Prayagraj</option>
+				<option value="Varanasi">Varanasi</option>
+				<option value="Other">Other</option>
+			</Select>
+			<br>
+			<br>
+			<input type="submit" style=" font-size:20px;background:green;color:red"value="submit">
+		</form>
+	</body>
+</html>

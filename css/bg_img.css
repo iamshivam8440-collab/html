@@ -1,0 +1,26 @@
+.bg {
+	/* background image */
+	background-image: url("../img/nature.jpg");
+	background-size: cover;
+}
+h1 {
+	text-align:center;
+	color:red;
+}
+
+a {
+	/* remove underline in link */
+	text-decoration: none;
+}
+h3 {
+	color:#fa01ff;
+	font-size:30px;
+	text-align:center;	
+}
+.test {
+	font-family:cursive;
+	color:#2653EB;
+	text-align:center;
+	/* font weight extra blod */
+	font-weight:bolder;
+}

@@ -1,0 +1,22 @@
+table{
+	border:2px solid red;
+	border-radius:10px;
+	margin:auto;
+	background-color:#E3F2FD;
+	color:#1F2937;
+	
+}
+.login{
+	font-size:20px;
+	color:#1E3A8A;
+}
+.bgcolor{
+	border-color:#2653EB;
+	background-color:#2563EB;
+}
+.button{
+	margin-left:10px;
+}
+.cent{
+	text-align:center;
+}

@@ -1,0 +1,27 @@
+* {
+	margin:0;
+	padding:0;
+	color:white;
+	text-decoration:none;
+}
+#box1 {
+	height:60px;
+	background-color:#0f1111;
+	border:2px solid white;
+}
+#box2 {
+	background-color:#685aea;
+}
+button {
+	background-color:#f08804;
+}
+#logo {
+	color:#f08804;
+	font-size:25px;
+}
+input {
+	color:black;
+}
+a {
+	margin-right:150px;
+}

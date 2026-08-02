@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Login Form</title>
+		<link rel="stylesheet" href="D:\HTML\css\style.css"/>
+	</head>
+	<body>
+		<!---------------------------login form start-------------------------------->
+		<form>
+			<table>
+				<tr class="cent">
+					<td colspan="2"><h3>Login Form</h3></td>
+				</tr>
+				<!--------------------text type start--------------------------->
+				<tr>
+					<td>Full Name</td>
+					<td><input type="text" placeholder="Full Name"/></td>
+				</tr>
+				<tr>
+					<td>User Email ID</td>
+					<td><input type="email" placeholder="Enter Email"/></td>
+				</tr>
+				<!--------------------text type end--------------------------->
+				
+				<!--------------------Password type start--------------------------->
+				<tr>
+					<td>User Password</td>
+					<td><input type="password" placeholder="Enter Password"/></td>
+				</tr>
+				<!--------------------Password type end--------------------------->
+				
+				<!--------------------Date type start--------------------------->
+				<tr>
+					<td>Date Of Birth</td>
+					<td><input type="date" name="dob" placeholder="Enter DOB"/></td>
+				</tr>
+				<!--------------------Date type end--------------------------->
+				
+				
+				<!--------------------radio type start--------------------------->
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="r1" value="male"/>Male
+						<input type="radio" name="r1" value="female"/>Female
+						<input type="radio" name="r1" value="other"/>Other
+					</td>
+				</tr>
+				<!--------------------radio type end--------------------------->
+				
+				
+				<!--------------------number type start--------------------------->
+				<tr>
+					<td>User Height (in cm)</td>
+					<td><input type="number" name="User_hiet" placeholder="Enter Height"/></td>
+				</tr>
+				<!--------------------number type end--------------------------->
+				
+				
+				<!--------------------textarea tag start--------------------------->
+				<tr>
+					<td>Parmanent Address</td>
+					<td><textarea rows="2" cols="30" placeholder="Enter Adddress"></textarea></td>
+				</tr>
+				<!--------------------textarea tag end--------------------------->
+				
+				
+				<!---------------------Select & option tag start-------------------------->
+				<tr>
+					<td>Select State/UT</td>
+					<td>
+						<select id="indian-states" name="indian_states">
+							<option value="" disabled selected>-- Select a State --</option>
+							<!-- 28 States -->
+							<option value="AP">Andhra Pradesh</option>
+							<option value="AR">Arunachal Pradesh</option>
+							<option value="AS">Assam</option>
+							<option value="BR">Bihar</option>
+							<option value="CG">Chhattisgarh</option>
+							<option value="GA">Goa</option>
+							<option value="GJ">Gujarat</option>
+							<option value="HR">Haryana</option>
+							<option value="HP">Himachal Pradesh</option>
+							<option value="JH">Jharkhand</option>
+							<option value="KA">Karnataka</option>
+							<option value="KL">Kerala</option>
+							<option value="MP">Madhya Pradesh</option>
+							<option value="MH">Maharashtra</option>
+							<option value="MN">Manipur</option>
+							<option value="ML">Meghalaya</option>
+							<option value="MZ">Mizoram</option>
+							<option value="NL">Nagaland</option>
+							<option value="OD">Odisha</option>
+							<option value="PB">Punjab</option>
+							<option value="RJ">Rajasthan</option>
+							<option value="SK">Sikkim</option>
+							<option value="TN">Tamil Nadu</option>
+							<option value="TG">Telangana</option>
+							<option value="TR">Tripura</option>
+							<option value="UP">Uttar Pradesh</option>
+							<option value="UK">Uttarakhand</option>
+							<option value="WB">West Bengal</option>
+							<!-- 8 Union Territories -->
+							<option value="AN">Andaman and Nicobar Islands</option>
+							<option value="CH">Chandigarh</option>
+							<option value="DN">Dadra and Nagar Haveli<br> and Daman and Diu</option>
+							<option value="DL">Delhi</option>
+							<option value="JK">Jammu and Kashmir</option>
+							<option value="LA">Ladakh</option>
+							<option value="LD">Lakshadweep</option>
+							<option value="PY">Puducherry</option>
+						</select>
+					</td>
+				</tr>
+				<!---------------------Select & option tag end-------------------------->
+				
+				<!---------------------File type start-------------------------->
+				<tr>
+					<td>Choose Photo</td>
+					<td><input type="file" name="fileupload"/></td>
+				</tr>
+				<!---------------------File type end-------------------------->
+				
+				
+				<!--------------------Reset & Submit type start------------------------>
+				<tr>
+				    <td colspan="2" class="cent">
+						<input type="button" class="bgcolor" value="Reset"/>
+						<input type="button" class="bgcolor" value="Submit"/>
+					</td>
+				</tr>
+				<!--------------------Reset & Submit type end------------------------->
+			</table>
+		</form>
+	    <!---------------------------login form start-------------------------------->
+	</body>
+</html>
