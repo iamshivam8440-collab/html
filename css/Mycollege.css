@@ -1,0 +1,24 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+}
+#box1 {
+    text-align:justify;
+
+}
+#box2 {
+    width:auto;
+    height: 600px;
+    background-image: url("../img/fugs.jpg");
+    background-size: cover;
+}
+#box3 {
+    text-decoration: none;
+    color:brown;
+}
+a {
+    text-decoration: none;
+    color:hsl(240, 100%, 50%);
+}
