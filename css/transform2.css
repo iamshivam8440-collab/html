@@ -1,0 +1,26 @@
+div{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background-color:aqua;
+	margin:200px 200px 200px 500px;
+	transition-property:all;
+	/* hover perform before 2sec */
+	transition-duration:2s;
+	transition-timing-function:value;
+	/* hover delay 2sec */
+	transition-delay:1s;
+	/* box remove 45deg */
+	transform:rotate(45deg);
+	/* rotate box 30deg 
+	transform:skew(30deg);*/
+}
+
+div:hover{
+	 background-color:red;
+	 transform:translate(300px); 
+	 /*  box increase 
+	 transform:scale(2); */
+	 transform:scalex(2.5);
+	 transform:scaley(1.5);
+}

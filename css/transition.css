@@ -1,0 +1,20 @@
+div{
+	border:2px solid black;
+	border-radius:50%;
+	height:200px;
+	width:200px;
+	background-color:aqua;
+	margin:200px 200px 200px 500px;
+	transition-property:all;
+	/* hover perform before 2sec */
+	transition-duration:2s;
+	transition-timing-function:value;
+	/* hover delay 2sec */
+	transition-delay:1s;
+}
+div:hover{
+	 background-color:red;
+}
+/*div:active{
+	background-color:pink;
+}*/
