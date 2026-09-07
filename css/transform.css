@@ -17,7 +17,5 @@ div{
 }
 div:hover{
 	 background-color:red;
-
-	 transform:translate(100px);
-	 
+	 transform:translate(100px); 
 }
